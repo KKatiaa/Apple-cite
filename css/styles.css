@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+header {
+    background: url(../img/apples.jpg) no-repeat center;
+    width: 1600px;
+    height: 740px;
+    min-width: 900px;
+    max-width: 100%;
+    color: white;
+}
+
+.top {
+	padding: 50px 70px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.top > nav > a {
+    text-decoration: none;
+    margin-left: 50px;
+    font-size: 15px;
+    color: white;
+    transition: all 0.7s;
+	font-family: ;
+}
+.top > nav > a:hover {
+    margin-left: 50px;
+    font-size: 15px;
+    color: black;
+    transition: all 0.7s;
+}
+
+.top > h1 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+header > article {
+	display: flex;
+    justify-content: center;
+	align-items: center;
+    flex-wrap: wrap;
+	flex-direction: column;
+}
+
+header > article :first-child{
+    font-size: 60px;
+    margin-top: 130px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+	font-weight: 500;
+}
+
+header > article :first-child > span{
+	font-size: 100px;
+}
+
+header > article :first-child.end{
+    font-size: 100px;
+}
+
+article > button {
+	border: 2px solid white;
+	background-color: rgba(0, 0, 0, 0.3);
+	color:white;
+	width: 320px;
+	height: 60px;
+	font-size: 20px;
+}
+
+header > article > button{
+	margin-top: 160px;
+}
+
+.section-text {
+	display: flex;
+}
+
+.section-text > p:first-child {
+	padding: 70px;
+	font-size: 18px;
+	height: 50px;
+	font-weight: 400;
+}
+
+.section-text > p:last-child {
+	padding: 75px 100px 100px 100px;
+	font-size: 13px;
+}
+
+  .section-img {
+	background-color: #F3F3F3;
+  }
+
+  .section-img > h2 {
+	text-align: center;
+	padding: 80px;
+	border-top: 50px;
+  }
+  
+  .section-img > article:nth-child(2n) > p {
+	display: block;
+	width: 250px;
+	height: 100px;
+	float: right;
+	border: 300px;
+	margin-top: 100px;
+  }
+  
+  .section-img > article:nth-child(2n+1) > p {
+	display: block;
+	width: 250px;
+	height: 100px;
+	float: left;
+	border: 300px;
+	margin-top: 100px;
+  }
+  
+  .subscribe {
+	background-color: #F3F3F3;
+	padding: 50px;
+  }
+
+  .subscribe-wrapper {
+    display: flex;
+	flex-direction: row;
+	background-color: #FFF;
+	height: 100px;
+	justify-content: center;
+  }
+
+  .subscribe-wrapper > p {
+	font-size: 27px;
+	display: flex;
+	align-items: center;
+  }
+
+  .subscribe-wrapper > input {
+	border-color: #343638;
+	padding: 10px;
+	width: 600px;
+	height: 30px;
+	margin-top: 25px;
+	background-color: #F3F3F3;
+	margin-left: 30px;
+  }
+
+  .subscribe-wrapper > button {
+	border-color: #343638;
+	padding: 10px;
+	background-color: #343638;
+	color: #FFF;
+	border: 0 25px;
+	height: 54px;
+	margin-top: 25px;
+	border-color: rgb(52, 54, 56);
+  }
+
+  footer > ul {
+	  display: flex;
+	  margin: 90px;
+	  gap: 30px;
+	  list-style-type: none;
+  }
+  
+  footer > article {
+	  display: flex;
+	  justify-content: space-between;
+	  height: 60px;
+	  align-items: center;
+  }
+
+  footer > article > nav > a {
+	  text-decoration: none;
+	  color:rgb(52, 54, 56);
+  }
+
+  footer > article > span {
+	text-decoration: none;
+	color:rgb(52, 54, 56, 0.6);
+}
+
+  ul h3 {
+	  font-size: 19px;
+	  font-weight: 900px; /* ??? */
+  }
+
+  ul p {
+	font-size: 15px;
+	font-weight: 500px; 
+	color: rgb(52, 54, 56, 0.7)
+  }
+
+  ul p:nth-child(2) {
+	  font-style: italic;
+  }
+  
+  /*???*/
+  ul p:nth-child(2) p:nth-last-child(2) {
+	color: rgba(52, 54, 56, 0.2)
+  }
+
+  li > a, address {
+	  text-decoration: none;
+	  color:rgba(52, 54, 56, 0.7)
+  }
+
+  li > input {
+	border-color: #343638;
+	padding: 10px;
+	width: 150px;
+	height: 10px;
+	background-color: #F3F3F3;
+  }
+
+  li > button {
+	border-color: #343638;
+	padding: 6px;
+	background-color: #343638;
+	color: #FFF;
+	border-color: rgb(52, 54, 56);
+  }
